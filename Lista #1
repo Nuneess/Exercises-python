@@ -1,5 +1,4 @@
- #Exercicio 1
-
+#Exercicio 1
 # metros = int(input("Digite um valor em metros: "))
 # milimetros = metros*1000
 # print(f"Em metros: {metros} em milimetros: {milimetros}")
@@ -12,28 +11,24 @@
 # print(f'A sua vida inteira em segundos foi de: {(dias * 24 * 60 * 60) + (horas * 60 * 60) + (minutos * 60) + segundos}')
 #
 # Exercicio 3
-#
 # valor = int(input("Digite o valor do seu salario: "))
 # aumento = int(input("Digite o valor do aumento: "))
 # salario = valor + (valor/100)*aumento
 # print((f"O valor do seu salario era de:{valor} e com o aumento de {aumento} foi para R${salario}"))
 #
 # Exercicio 4
-#
 # preco = float(input("Digite o preço da mercadoria: "))
 # desconto = int(input("Digite o percentual do desconto: "))
 # precofinal = preco - (preco/100)*desconto
 # print(f"O valor da mercadoria com o desconto foi de: R${precofinal}")
 #
 # Exercicio 5
-#
 # distancia = int(input("Digite a distancia que vai ser percorrida: "))
 # velocidademedia = int(input("Digite a velocidade media: "))
 # tempo = distancia/velocidademedia
 # print(tempo)
 #
 # Exercicio 6
-#
 # numero1 = int(input("Digite um numero: "))
 # numero2 = int(input("Digite um numero: "))
 # soma = numero1 + numero2
@@ -43,7 +38,6 @@
 # print(soma)
 #
 # Exercicio 7
-#
 # soma = 0
 # while soma != 100:
 #     soma += 1
@@ -65,7 +59,6 @@
 # print(lista[0])
 #
 # Exercicio 10
-#
 # resposta = "sim"
 # while resposta == "sim":
 #     numero1=int(input('Digite um número: '))
@@ -79,7 +72,6 @@
 
 #
 # Exercicio 12
-#
 # lista = []
 # n = str()
 # while n != "0":
@@ -90,13 +82,14 @@
 # print(lista)
 #
 # Exercicio 13
-
 # sexo = input("Qual o seu genero? ")
 # while sexo not in ("F", "M"):
 #     sexo = input("Digite novamente por favor! ")
-# if sexo == "F":   
+# if sexo == "F":
+#     sexo.lower()
 #     print("Parabéns, seu genero é feminino!")
 # if sexo == "M":
+#     sexo.lower()
 #     print("Parabéns, seu genero é masculino!")
 
 
