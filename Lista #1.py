@@ -1,4 +1,4 @@
- Exercicio 1
+ #Exercicio 1
 
 metros = int(input("Digite um valor em metros: "))
 milimetros = metros*1000
@@ -11,28 +11,28 @@ minutos=int(input("Quantos minutos você ja viveu? "))
 segundos=int(input("Quartos segundos você ja viveu? "))
 print(f'A sua vida inteira em segundos foi de: {(dias * 24 * 60 * 60) + (horas * 60 * 60) + (minutos * 60) + segundos}')
 
-Exercicio 3
+#Exercicio 3
 
 valor = int(input("Digite o valor do seu salario: "))
 aumento = int(input("Digite o valor do aumento: "))
 salario = valor + (valor/100)*aumento
 print((f"O valor do seu salario era de:{valor} e com o aumento de {aumento} foi para R${salario}"))
 
-Exercicio 4
+#Exercicio 4
 
 preco = float(input("Digite o preço da mercadoria: "))
 desconto = int(input("Digite o percentual do desconto: "))
 precofinal = preco - (preco/100)*desconto
 print(f"O valor da mercadoria com o desconto foi de: R${precofinal}")
 
-Exercicio 5
+#Exercicio 5
 
 distancia = int(input("Digite a distancia que vai ser percorrida: "))
 velocidademedia = int(input("Digite a velocidade media: "))
 tempo = distancia/velocidademedia
 print(tempo)
 
-Exercicio 6
+#Exercicio 6
 
 numero1 = int(input("Digite um numero: "))
 numero2 = int(input("Digite um numero: "))
@@ -42,7 +42,7 @@ while soma !=50:
     print(soma)
 print(soma)
 
-Exercicio 7
+#Exercicio 7
 
 soma = 0
 while soma != 100:
@@ -56,7 +56,7 @@ while soma != n:
     soma += 1
     print(soma)
 
-Exercicio 9
+#Exercicio 9
 lista = []
 
 while len(lista) < 5 :
@@ -64,7 +64,7 @@ while len(lista) < 5 :
     lista.append(n)
 print(lista[0])
 
-Exercicio 10
+#Exercicio 10
 
 resposta = "sim"
 while resposta == "sim":
@@ -78,7 +78,7 @@ while resposta == "sim":
         break
 
 
-Exercicio 12
+#Exercicio 12
 
 lista = []
 n = str()
@@ -89,7 +89,7 @@ while n != "0":
     else: break
 print(lista)
 
-Exercicio 13
+#Exercicio 13
 
 sexo = input("Qual o seu genero? ")
 while sexo not in ("F", "M"):
